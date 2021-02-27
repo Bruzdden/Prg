@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+/*Delal jsem to asi 5 hodin a snad to bude stacit*/
+
+int main() {
+    int h, prumer;
+    int sum;
+    int n;
+    float pr;
+
+    
+    int arr[5] = {14, 28, 42, 56, 70};
+        sum = pr =0;
+        for(n = 0; n < 5; n++)
+            sum += arr[n];
+        pr = (float)sum / n;
+        printf("prumer je %.2f\n", pr);
+        
+    int max = arr[4]; int min = arr[0];
+        int soucet=0;
+        for(int k = 0; k < 5; k++){
+            soucet += arr[k];
+    }
+            printf("Soucet je %d\n", soucet);
+                
+        
+        printf("max hodnota je %d\n", max);
+        printf("min hodnota je %d\n", min);
+        
+        
+        
+        
+        
+        
+         
+        
+    return 0;
+}
