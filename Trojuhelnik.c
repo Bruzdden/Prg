@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    /* trojuhelnik, nevim jak udelat mezeru tak je tam tečka*/
+    
     int i, j;
     int h;
     scanf("%d", &h);
@@ -9,7 +9,7 @@ int main(void) {
     for (i = 1; i <= h; i++)
     {
         for (j = 1; j <= h - i; j++) 
-            printf(".  ");
+            printf("  ");
         for (j = 2; j <= i * 2; j++)    
             printf("*");
         printf("\n");
