@@ -7,10 +7,7 @@ int main()
     char delka[] = "HELLOOOO";
     
     int len = strlen(delka); /*do len se uloží počet znaku "delka"*/
-    int count = 1;
-    
-    //printf("%s", delka); //toto jsou prikazy na to kdyz nechci urcovat specificky znaky
-    //scanf("%s", delka); 
+    int count = 1; 
     for(int i = 0; i < len; i++){   /* i < len se da napsat jako i < strlen(delka) a je to lehci nemusi se to ukladat do len*/
 
         if(delka[i] == delka[i + 1])
