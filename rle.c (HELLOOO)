@@ -19,7 +19,7 @@ int main()
 }
         else
 {
-            printf("%c%d-", delka[i], delka2[i], count); // znaky jsou rozdeleny - aby to bylo prehlednejsi da se to odstranit
+            printf("%c%d-", delka[i], count); // znaky jsou rozdeleny - aby to bylo prehlednejsi da se to odstranit
             count = 1;
 }   
 }
